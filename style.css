@@ -1,0 +1,17 @@
+/*To do list, Lisa Vogt
+stylesheet*/
+
+body {
+	color: purple;
+}
+#new_item {
+	border-radius: 5px;
+	width: 250px;
+}
+.remove {
+	color: blue;
+	margin-left: 200px;
+}
+form {
+	background-color: #F1FAA5;
+}
