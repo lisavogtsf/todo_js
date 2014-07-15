@@ -3,7 +3,7 @@
 
 var form = document.getElementById("new_task_form");
 var list = document.getElementById("list");
-var removeText = "Remove";
+var removeText = "Did this thing!";
 // var removeThese = document.getElementsByClassName('remove');
 // var relaxIpsum = [
 // 	"May you be at peace",
@@ -35,29 +35,25 @@ form.onsubmit = function(event) {
 
 	// clear input form
 	newTask.value = "";
-
 };
 
-// remove tasks, when complete
-// var removeButton = document.getElementsByTagName('button');
+// try remove using event handling
+// get the list itself, add an event listener
+list.addEventListener("click", function(event) {
+	// debugger;
+	// confirm the clicked item exists and is an li
+	if (event.target && event.target.nodeName === "BUTTON") {
+		console.log("event.target", event.target);
+		console.log("event.target.parentNode.innerHTML)", event.target.parentNode.innerHTML);
+		// console.log("event.target.class: ", event.target.class);
+		// console.log("event.target.className: ", event.target.className);
+		// console.log("event.target.parentNode: ", event.target.parentNode);
 
-// removeButton.onclick = function (event) {
-// 	console.log(this);
 
-// }
-
-
-
-// note this function is probably not beginning correctly
-// want the button to be selected
-// var button = document.getElementsByTagName("button");
-// 	//debugger;
-// button.onclick = function (event){
-// 	console.log(button);
-// 	this.parentNode.parentNode.removeChild(this.parentNode);
-
-// }
-
+		event.target.parentNode.parentNode.removeChild(event.target.parentNode);
+		console.log("removed ", event.target.parentNode);
+	}
+});
 
 
 
