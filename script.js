@@ -35,6 +35,8 @@ form.onsubmit = function(event) {
 
 	// clear input form
 	newTask.value = "";
+
+	//stuff
 };
 
 // remove tasks, when complete
