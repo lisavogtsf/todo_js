@@ -23,7 +23,7 @@ form.onsubmit = function(event) {
 	// var newTask.value = relaxIpsum[i];
 
 	var newListItem = document.createElement('li');
-	var newTextNode = document.createTextNode(newTask.value);
+	var newTextNode = document.createTextNode(newTask.value + "    ");
 	list.appendChild(newListItem);
 	newListItem.appendChild(newTextNode);
 
