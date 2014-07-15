@@ -36,10 +36,18 @@ form.onsubmit = function(event) {
 	// clear input form
 	newTask.value = "";
 
-	//stuff
 };
 
 // remove tasks, when complete
+// var removeButton = document.getElementsByTagName('button');
+
+// removeButton.onclick = function (event) {
+// 	console.log(this);
+
+// }
+
+
+
 // note this function is probably not beginning correctly
 // want the button to be selected
 // var button = document.getElementsByTagName("button");
