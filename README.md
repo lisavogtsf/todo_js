@@ -1,8 +1,12 @@
-#Lab: To-Do App, by Lisa Vogt
+# [Do all the things!](https://lisavogtsf.github.io/todo_js/index.html)
 
+by Lisa Vogt
 
+A simple to-do list app, featuring the art of Allie Brosh, creator of Hyperbole and a Half.
+
+*************************************
+##Lab: To-Do App 
 In this lab, you're going put together all you've learned about listening to DOM events and manipulating the DOM with JavaScript to build a dynamic Todo List application.
-
 
 ##Minimum Requirements
 * A user should be able to add items to a 'todo' list from a form input using an input field and submit button.
